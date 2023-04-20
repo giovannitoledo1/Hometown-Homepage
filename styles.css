@@ -1,0 +1,133 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: -15px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    border: 5px solid white;
+}
+
+.hero {
+    background: url("https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2018-02/91a759e8e0dc7813ae9dd3612f380f7d.jpeg?h=4ebd21dc&itok=PJOYFIf2") no-repeat;
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    border-radius: 30px;
+}
+
+#hero-visit {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 37px;  
+    color: #FFFFFF;
+    position: absolute;
+    width: 220px;
+    height: 42px;
+    left: 247px;
+    top: 119px;
+    background: #1D3557;
+    border-radius: 10px;
+    padding-bottom: px; 
+}
+
+#hero-enjoy {
+    position: absolute;
+    width: 430px;
+    height: 50px;
+    left: 154px;
+    top: 172px;
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #457B9D;
+    border-radius: 10px;
+}
+
+.activities-background {
+    background: #F1FAEE;
+    position: absolute;
+    width: 720px;
+    height: 378px;
+    left: 0px;
+    top: 343px;
+    border-radius: 30px;  
+    padding-top: 10px;
+    text-align: center;
+}
+.activities {
+    /*continue here*/
+    display: flex;
+    width: 720px;
+    height: 378px;
+    left: 0px;
+    top: 343px; 
+}
+
+.guide {
+    border-radius: 10px;
+    position: absolute;
+    width: 750px;
+    height: 394px;
+    left: 0px;
+    top: 721px;
+}
+
+.your-guide {
+    box-shadow: 0px 6px 0px #1D3557;
+    position: absolute;
+    width: 430px;
+    height: 294px;
+    left: 160px;
+    top: 50px;
+    display: flex;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.guide-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -6px;
+    margin-right: 5px;
+}
+
+.guide-container h3 {
+    margin: 49px 0px 2px 0px;
+    font-size: 24;
+}
+
+.guide-container p {
+    font-size: 14px;
+}
+
+.guide-container h4 {
+    margin-top: 10px;
+    font-size:  16px;
+}
+
+.round-border {
+    border-radius: 50px;
+}
+
+img {
+    width: 100px;
+}
+
+#img-custom {
+    border-radius: 10px;
+    width: 170px;
+    height: 248px;
+    left: 173px;
+    top: 100px;
+    margin: 20px 10px 10px 10px;
+}
